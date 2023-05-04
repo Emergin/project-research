@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <form action="/action_page.php">
+      <div class="login_form">
+        <hr />
+        <label for="email"><b>Email</b></label>
+        <input
+          type="text"
+          placeholder="Enter email"
+          name="email"
+          id="email"
+          required
+        />
+        <label for="psw"><b>Password</b></label>
+        <input
+          type="password"
+          placeholder="Enter password"
+          name="psw"
+          id="psw"
+          required
+        />
+        <input type="checkbox" onclick="myFunction()" />Show password
+        <hr />
+        <button type="submit" class="registerbtn">Sign in</button>
+      </div>
+    </form>
+    <script src="login.js"></script>
+  </body>
+</html>
